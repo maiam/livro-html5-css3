@@ -10,4 +10,8 @@ router.get('/cidades', function(req, res, next) {
   res.render('cities/cidades');
 });
 
+router.get('/cidades/saopaulo', function(req, res, next) {
+  res.render('cities/saopaulo');
+});
+
 module.exports = router;
